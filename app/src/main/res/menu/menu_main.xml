@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/send"
+        android:icon="@drawable/ic_shortcut_send"
+        android:title="Wyślij wiadomość"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_shortcut_share"
+        android:title="@string/share"
+        app:actionProviderClass="androidx.appcompat.widget.ShareActionProvider"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/version"
+        android:title="Wersja SDK"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/about"
+        android:title="O programie"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/komunikator"
+        android:title="Komunikator"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sensors"
+        android:title="Czujniki"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/settings"
+        android:title="Ustawieia"
+        app:showAsAction="never" />
+</menu>

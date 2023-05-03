@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pl.kalisz.ak.pup.apkaarkadiusz28879">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STOP" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_START" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_START" />
+    <uses-permission android:name="android.permission.READ_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <receiver android:name=".Widget28879">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget28879_info" />
+        </receiver>
+
+        <service android:name=".Usluga" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WyswietlWiadomosc"
+            android:label="Wyświetlam wiadomość"
+            android:parentActivityName=".WyslijWiadomosc" />
+        <activity
+            android:name=".WyslijWiadomosc"
+            android:label="Wysyłam wiadomość">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Czujniki"
+            android:label="Wykaz czujników"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".Kierunki"
+            android:label="Kierunki na wydziałach"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".Formularz"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Aplikacja do zdjęć"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".ObiektyUczelni"
+            android:label="Obiekty uczelni"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".ObiektyInfo"
+            android:label="Fragmenty-info"
+            android:parentActivityName=".ObiektyInfo"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".ObiektyLista"
+            android:label="Fragmenty-lista"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".BazaDanych"
+            android:label="Baza danych"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".BazaDanychAktualizacja"
+            android:label="Aktualizacja danych"
+            android:parentActivityName=".BazaDanych"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".BazaDanychDopisz"
+            android:label="Dopisanie organizacji"
+            android:parentActivityName=".BazaDanych"
+            android:theme="@style/MyAppTheme" /> <!-- <activity android:name=".SprawdzajSiec"></activity> -->
+        <activity
+            android:name=".SprawdzajSiec"
+            android:label="Sprawdzenie sieci"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".Ustawienia"
+            android:label="@string/title_activity_ustawienia"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/MyAppTheme" />
+
+    </application>
+
+</manifest>

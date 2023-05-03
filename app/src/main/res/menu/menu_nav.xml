@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_16"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="@string/nav_16"
+            android:checked="true" />
+        <item android:id="@+id/nav_17"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="@string/nav_17"
+            android:checked="true" />
+        <item android:id="@+id/nav_18"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="@string/nav_18"
+            android:checked="true" />
+        <item android:id="@+id/nav_19"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="@string/nav_19"
+            android:checked="true" />
+        <item android:id="@+id/nav_110"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="@string/nav_110"
+            android:checked="true" />
+        <item android:id="@+id/nav_111"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="@string/nav_111"
+            android:checked="true" />
+        <item android:id="@+id/nav_112"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="@string/nav_112"
+            android:checked="true" />
+        <!--        <item android:id="@+id/sensors"-->
+        <!--            android:icon="@android:drawable/ic_menu_compass"-->
+        <!--            android:title="Czujniki"-->
+        <!--            android:checkable="true" />-->
+
+    </group>
+
+    <item android:title="@string/nav_projekt" >
+        <menu>
+            <item android:id="@+id/temat"
+                android:icon="@android:drawable/stat_notify_chat"
+                android:title="@string/nav_projekt_temat" />
+            <item android:id="@+id/ikona"
+                android:icon="@android:drawable/btn_star"
+                android:title="@string/nav_projekt_ikona" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Apka Arkadiusz 28879</string>
+    <string name="send">Wyślij wiadomość</string>
+    <string name="share">Udostępnij</string>
+    <string name="version">Wersja SDK</string>
+    <string name="about">O programie</string>
+
+    <string name="app_imie">Arkadiusz Snaglewski</string>
+    <string name="app_album">Album: 28879</string>
+    <string name="nav_16">Lab6. Czas życia sensory</string>
+    <string name="nav_17">Lab7. Widoki, układy</string>
+    <string name="nav_18">Lab8. RecylcerView</string>
+    <string name="nav_19">Lab9. Fragmenty</string>
+    <string name="nav_110">Lab10.Baza danych</string>
+    <string name="nav_111">Lab11. Usługi</string>
+    <string name="nav_112">Lab12. Różności</string>
+    <string name="nav_projekt">Projekt inwidualny</string>
+    <string name="nav_projekt_temat">Temat</string>
+    <string name="nav_projekt_ikona">Ikona</string>
+    <string name="nav_open_drawer">Otwórz szuflade</string>
+    <string name="nav_close_drawer">Zamknij szuflade</string>
+    <string name="sensors">Czujnik</string>
+
+    <string name="wyswietl_kierunki">Wyświetl kierunki</string>
+    <string name="kierunki">Nie wybrano wydziału</string>
+    <string-array name="wydzialy">
+        <item>Politechniczny</item>
+        <item>Medyczny</item>
+        <item>Rehabilitacji i sportu</item>
+        <item>Nauk Społecznych i Humanistycznych</item>
+    </string-array>
+    <string name="title_activity_formularz">Formularz</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_baza_danych">BazaDanych</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_activity_ustawienia">Ustawienia</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>
